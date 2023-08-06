@@ -68,7 +68,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: my-build-package
-        path: dist/*.whl
+        path: bikeshare_project/dist/*.whl
 
   push-image:
     needs: [train, test, build]
