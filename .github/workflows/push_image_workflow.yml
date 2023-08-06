@@ -42,7 +42,7 @@ jobs:
         name: my-trained-pipeline
         path: bikeshare_project/bikeshare_model/trained_models
     - name: Install dependencies
-      run: pip install -r rbikeshare_project/equirements/test_requirements.txt
+      run: pip install -r bikeshare_project/equirements/test_requirements.txt
     - name: Test with pytest
       run: pytest
 
