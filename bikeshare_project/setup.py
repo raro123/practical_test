@@ -22,7 +22,7 @@ long_description = DESCRIPTION
 
 # Load the package's VERSION file as a dictionary.
 about = {}
-ROOT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = Path(__file__).resolve().parent /'bikeshare_project'
 print(ROOT_DIR)
 REQUIREMENTS_DIR = ROOT_DIR / 'requirements'
 PACKAGE_DIR = ROOT_DIR / 'bikeshare_model'
